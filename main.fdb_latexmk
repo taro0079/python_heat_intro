@@ -1,0 +1,11 @@
+# Fdb version 3
+["latex"] 1622088800 "main.tex" "main.dvi" "main" 1622088800
+  "/usr/local/texlive/2021/texmf-dist/tex/platex/jsclasses/jsarticle.cls" 1602274849 60810 4554ddf6e0b4ed9f3f486c72558ba459 ""
+  "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
+  "/usr/local/texlive/2021/texmf-var/web2c/pdftex/latex.fmt" 1621994188 2724815 a729972e8ef32caeb5191ab3a9214c89 ""
+  "/usr/local/texlive/2021/texmf.cnf" 1621994121 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "main.aux" 1622088742 32 3985256e7290058c681f74d7a3565a19 ""
+  "main.tex" 1622088798 240 d1e30dc0cad9239d5059cdfe146e1ee4 ""
+  (generated)
+  "main.log"
+  "main.dvi"

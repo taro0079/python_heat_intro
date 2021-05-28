@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.5.26)  28 MAY 2021 18:32
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.5.26)  28 MAY 2021 19:21
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -43,24 +43,8 @@ Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
 Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 . L3 programming layer <2021-02-18>
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/taro/.texlive2021/texmf-
-var/luatex-cache/generic/names/luaotfload-names.luc)
-\c@part=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
-)
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
+Document Class: ltjsarticle 2020/12/23 ltjsclasses 
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja.sty
 Package: luatexja 2021-03-19 Japanese Typesetting with Lua(La)TeX
 
@@ -72,7 +56,7 @@ Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX
 
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count183
+\@catcodetablestackcnt=\count175
 )
 \CatcodeTableOther=\catcodetable12
 \CatcodeTableExpl=\catcodetable13
@@ -104,12 +88,12 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@tempa@toks=\toks17
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count184
+\XKV@depth=\count176
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count185
+\etb@tempcnta=\count177
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/everyhook/everyhook.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/svn-prov/svn-prov.sty
@@ -124,10 +108,10 @@ X primitives.
 \everyvbox=\toks22
 \everycr=\toks23
 )
-\ltjlineendcomment=\count186
-\ltj@dimen@zw=\dimen139
-\ltj@dimen@zh=\dimen140
-\ltj@dimen@jQ=\dimen141
+\ltjlineendcomment=\count178
+\ltj@dimen@zw=\dimen138
+\ltj@dimen@zh=\dimen139
+\ltj@dimen@jQ=\dimen140
 \ltj@icflag=\attribute4
 \ltj@curjfnt=\attribute5
 \ltj@curtfnt=\attribute6
@@ -143,7 +127,7 @@ X primitives.
 \ltj@vert@ori=\attribute16
 \ltj@dir=\attribute17
 \ltj@@japanese=\language2
-\ltj@tempcnta=\count187
+\ltj@tempcnta=\count179
 \ltj@kcat0=\attribute18
 \ltj@kcat1=\attribute19
 \ltj@kcat2=\attribute20
@@ -187,8 +171,7 @@ Inserting `luaotfload.aux.set_capheight' at position 5 in `luaotfload.patch_font
 Inserting `luaotfload.aux.set_xheight' at position 6 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 7 in `luaotfload.patch_font'
 .
-Inserting `ltj.prepare_extra_data' at position 1 in `luatexja.define_font'.(load
- cache: extra_lmroman10-regular.luc)
+Inserting `ltj.prepare_extra_data' at position 1 in `luatexja.define_font'.
 Inserting `ltj.get_vert_form' at position 1 in `luatexja.define_jfont'.
 Removing  `ltj.prepare_extra_data' from `luaotfload.patch_font'.
 Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
@@ -255,9 +238,9 @@ Inserting `luaotfload.harf.finalize_hlist' at position 5 in `hpack_filter'.
 Inserting `ltj.create_dir_whatsit' at position 6 in `hpack_filter'.
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-base.sty
 Package: ltj-base 2021-03-16
-\ltj@tempcntb=\count188
-\ltj@tempcntc=\count189
-\ltj@tempdima=\dimen142
+\ltj@tempcntb=\count180
+\ltj@tempcntc=\count181
+\ltj@tempdima=\dimen141
 \ltj@afbox=\box47
 )
 \ltj@@italic@inner=\luafunction11
@@ -274,8 +257,8 @@ Package: ltj-base 2021-03-16
 \ltj@@fakeboxbdd@inner=\luafunction22
 \ltj@@ins@xk@inner=\luafunction23
 \ltj@@ins@k@inner=\luafunction24
-\ltj@@stack=\count190
-\ltj@@group@level=\count191
+\ltj@@stack=\count182
+\ltj@@group@level=\count183
 \ltjsetkanjiskip@inner=\luafunction25
 \ltjsetxkanjiskip@inner=\luafunction26
 \ltj@@getparam@one@inner=\luafunction27
@@ -292,24 +275,24 @@ Package: ltj-latex 2021-03-18 LaTeX support of LuaTeX-ja
 
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
 Package: lltjfont 2021-02-14 Patch to NFSS2 for LuaTeX-ja
-\ltj@@latex@plv=\count192
+\ltj@@latex@plv=\count184
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/tuenc.def
 File: tuenc.def 2020/08/10 v2.0s Standard LaTeX file
 \@remove@tlig@@@@=\luafunction35
 LaTeX Font Info:    Redeclaring font encoding TU on input line 106.
 )
-\Cht=\dimen143
-\cht=\dimen144
-\Cdp=\dimen145
-\cdp=\dimen146
-\Cwd=\dimen147
-\cwd=\dimen148
-\Cvs=\dimen149
-\cvs=\dimen150
-\Chs=\dimen151
-\chs=\dimen152
-\cHT=\dimen153
+\Cht=\dimen142
+\cht=\dimen143
+\Cdp=\dimen144
+\cdp=\dimen145
+\Cwd=\dimen146
+\cwd=\dimen147
+\Cvs=\dimen148
+\cvs=\dimen149
+\Chs=\dimen150
+\chs=\dimen151
+\cHT=\dimen152
 \dstrutbox=\box48
 \tstrutbox=\box49
 \zstrutbox=\box50
@@ -342,12 +325,15 @@ LaTeX Info: Redefining \fontshapeforce on input line 932.
 )
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
 Package: lltjdefs 2021-01-24 Default font settings of LuaTeX-ja
+luaotfload | db : Font names database loaded from /home/taro/.texlive2021/texmf-
+var/luatex-cache/generic/names/luaotfload-names.luc(load cache: extra_lmroman10-
+regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 75.
+(Font)              scaled to size 9.24713pt on input line 75.
 
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/jfm-ujisv.lua)
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 75.
+(Font)              scaled to size 9.24713pt on input line 75.
 (load cache: extra_haranoajimincho-regular.luc)
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua)
 \symmincho=\mathgroup4
@@ -362,10 +348,10 @@ Package: expl3 2021-02-18 L3 programming layer (loader)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2021-03-18 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count193
+\l__color_backend_stack_int=\count185
 \l__pdf_internal_box=\box51
 ))
-\@tombowwidth=\dimen154
+\@tombowwidth=\dimen153
 \@TL=\box52
 \@Tl=\box53
 \@TC=\box54
@@ -380,9 +366,9 @@ File: l3backend-luatex.def 2021-03-18 L3 backend support: PDF output (LuaTeX)
 \@CR=\box63
 (load cache: extra_lmmono9-regular.luc)
 \@bannertoken=\toks24
-\@@paperheight=\dimen155
-\@@paperwidth=\dimen156
-\@@topmargin=\dimen157
+\@@paperheight=\dimen154
+\@@paperwidth=\dimen155
+\@@topmargin=\dimen156
 LaTeX Info: Redefining \underline on input line 261.
 )
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-atbegshi.
@@ -402,26 +388,69 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
 Package: luatexja-compat 2020-08-08 Compatibility with pTeX
 (load cache: ltj-jisx0208.luc)
-\hour=\count194
-\minute=\count195
+\hour=\count186
+\minute=\count187
 ))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+\jsc@mpt=\dimen157
+\jsc@mmm=\dimen158
+\jsc@smallskipamount=\skip47
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 414.
+\fullwidth=\dimen159
+(load cache: extra_lmroman8-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 7.3977pt on input line 555.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 7.3977pt on input line 555.
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\@abstractbox=\box65
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+LaTeX Info: Redefining \mc on input line 1208.
+LaTeX Info: Redefining \gt on input line 1209.
+\jsc@tocl@width=\dimen160
+\@lnumwidth=\dimen161
+\bibindent=\dimen162
+
+(/usr/local/texlive/2021/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2019/07/25 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 82.
+LaTeX Info: Redefining \LaTeX on input line 135.
+LaTeX Info: Redefining \LaTeXe on input line 188.
+)
+\heisei=\count196
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count197
+\c@dblbotnumber=\count198
+)
+(/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.
+sty)) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count196
-\Gm@cntv=\count197
-\c@Gm@tempcnt=\count198
-\Gm@bindingoffset=\dimen158
-\Gm@wd@mp=\dimen159
-\Gm@odd@mp=\dimen160
-\Gm@even@mp=\dimen161
-\Gm@layoutwidth=\dimen162
-\Gm@layoutheight=\dimen163
-\Gm@layouthoffset=\dimen164
-\Gm@layoutvoffset=\dimen165
+\Gm@cnth=\count199
+\Gm@cntv=\count266
+\c@Gm@tempcnt=\count267
+\Gm@bindingoffset=\dimen163
+\Gm@wd@mp=\dimen164
+\Gm@odd@mp=\dimen165
+\Gm@even@mp=\dimen166
+\Gm@layoutwidth=\dimen167
+\Gm@layoutheight=\dimen168
+\Gm@layouthoffset=\dimen169
+\Gm@layoutvoffset=\dimen170
 \Gm@dimlist=\toks25
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
@@ -434,7 +463,7 @@ Package: newpxmath 2020/11/02 v1.414
 `newpxmath' v1.414, 2020/11/02 Math macros based on pxfonts (msharpe)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
-\@mathmargin=\skip49
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -443,49 +472,49 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks26
-\ex@=\dimen166
+\ex@=\dimen171
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen167
+\pmbraise@=\dimen172
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count199
+\inf@bad=\count268
 LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count266
-\leftroot@=\count267
+\uproot@=\count269
+\leftroot@=\count270
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count268
-\DOTSCASE@=\count269
+\classnum@=\count271
+\DOTSCASE@=\count272
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box65
-\strutbox@=\box66
-\big@size=\dimen168
+\Mathstrutbox@=\box66
+\strutbox@=\box67
+\big@size=\dimen173
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count270
-\c@MaxMatrixCols=\count271
+\macc@depth=\count273
+\c@MaxMatrixCols=\count274
 \dotsspace@=\muskip17
-\c@parentequation=\count272
-\dspbrk@lvl=\count273
+\c@parentequation=\count275
+\dspbrk@lvl=\count276
 \tag@help=\toks27
-\row@=\count274
-\column@=\count275
-\maxfields@=\count276
+\row@=\count277
+\column@=\count278
+\maxfields@=\count279
 \andhelp@=\toks28
-\eqnshift@=\dimen169
-\alignsep@=\dimen170
-\tagshift@=\dimen171
-\tagwidth@=\dimen172
-\totwidth@=\dimen173
-\lineht@=\dimen174
+\eqnshift@=\dimen174
+\alignsep@=\dimen175
+\tagshift@=\dimen176
+\tagwidth@=\dimen177
+\totwidth@=\dimen178
+\lineht@=\dimen179
 \@envbody=\toks29
-\multlinegap=\skip50
-\multlinetaggap=\skip51
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
@@ -497,7 +526,7 @@ Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 \px@tA=\toks31
 \px@tB=\toks32
 \px@su=\read2
-\px@Isdigit=\count277
+\px@Isdigit=\count280
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 197.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 197.
@@ -575,8 +604,8 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsPXA' in version `bold'
 
 (Font)                  U/npxexa/m/n --> U/npxexa/b/n on input line 318.
-\px@cntz=\count278
-\px@IsAlNum=\count279
+\px@cntz=\count281
+\px@IsAlNum=\count282
 \px@sbptoks=\toks33
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 473.
 LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 474.
@@ -602,12 +631,12 @@ LaTeX Font Info:    Redeclaring math accent \check on input line 535.
 LaTeX Font Info:    Redeclaring math accent \dot on input line 539.
 LaTeX Font Info:    Redeclaring math accent \ddot on input line 540.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 1582.
-\npx@numstart=\count280
-\npx@UCstart=\count281
-\npx@lcstart=\count282
-\npx@tmpc=\count283
-\npx@imath=\count284
-\npx@jmath=\count285
+\npx@numstart=\count283
+\npx@UCstart=\count284
+\npx@lcstart=\count285
+\npx@tmpc=\count286
+\npx@imath=\count287
+\npx@jmath=\count288
 LaTeX Info: Redefining \not on input line 2137.
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/newpxtext.sty
@@ -638,8 +667,6 @@ File: t1zpltlf.fd 2015/01/17 v1.0 font definition file for T1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 112.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 112.
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -669,28 +696,28 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 105.
 )
-\Gin@req@height=\dimen175
-\Gin@req@width=\dimen176
+\Gin@req@height=\dimen180
+\Gin@req@width=\dimen181
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count286
-\lst@gtempboxa=\box67
+\lst@mode=\count289
+\lst@gtempboxa=\box68
 \lst@token=\toks34
-\lst@length=\count287
-\lst@currlwidth=\dimen177
-\lst@column=\count288
-\lst@pos=\count289
-\lst@lostspace=\dimen178
-\lst@width=\dimen179
-\lst@newlines=\count290
-\lst@lineno=\count291
-\lst@maxwidth=\dimen180
+\lst@length=\count290
+\lst@currlwidth=\dimen182
+\lst@column=\count291
+\lst@pos=\count292
+\lst@lostspace=\dimen183
+\lst@width=\dimen184
+\lst@newlines=\count293
+\lst@lineno=\count294
+\lst@maxwidth=\dimen185
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count292
-\lst@skipnumbers=\count293
-\lst@framebox=\box68
+\c@lstnumber=\count295
+\lst@skipnumbers=\count296
+\lst@framebox=\box69
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -704,7 +731,7 @@ Package: luatexbase-cctb 2015/10/04 v1.3 luatexbase interface to LuaTeX (legacy
  subpackage) 
 )
 \CatcodeTableLTJlistings=\catcodetable15
-\ltj@lst@frame@lslimit=\dimen181
+\ltj@lst@frame@lslimit=\dimen186
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
@@ -714,62 +741,62 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 33.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 34.
 LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
- 33.
+ 34.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-3.
+4.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for U+npxexa on input line 
-33.
+34.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line
- 33.
+ 34.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for LMX+npxexx on input lin
-e 33.
+e 34.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 33.
+LaTeX Info: Redefining \selectfont on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -779,23 +806,23 @@ LaTeX Info: Redefining \selectfont on input line 33.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 666.9326pt, 71.13188pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=666.9326pt
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=717.00946pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \topmargin=-51.06133pt
+* \headheight=20.0pt
+* \headsep=15.69684pt
+* \topskip=12.76108pt
+* \footskip=28.45792pt
+* \marginparwidth=18.49426pt
+* \marginparsep=18.49426pt
+* \columnsep=18.49426pt
+* \skip\footins=16.0pt plus 5.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -805,20 +832,20 @@ LaTeX Info: Redefining \selectfont on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count294
-\c@mv@boldtabular=\count295
+\c@mv@tabular=\count297
+\c@mv@boldtabular=\count298
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
-\scratchdimen=\dimen182
-\scratchbox=\box69
-\nofMPsegments=\count297
-\nofMParguments=\count298
+\scratchcounter=\count299
+\scratchdimen=\dimen187
+\scratchbox=\box70
+\nofMPsegments=\count300
+\nofMParguments=\count301
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count299
-\MPscratchDim=\dimen183
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen188
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
 \everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -829,156 +856,160 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count302
+\c@lstlisting=\count305
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 34.
+(Font)              scaled to size 17.28pt on input line 35.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 34.
+(Font)              scaled to size 15.97903pt on input line 35.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 34.
+(Font)              scaled to size 15.97903pt on input line 35.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 34.
+(Font)              scaled to size 12.0pt on input line 35.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 34.
+(Font)              scaled to size 11.09656pt on input line 35.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 34.
+(Font)              scaled to size 11.09656pt on input line 35.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-4.
+5.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.46753pt on input line 34.
+(Font)              scaled to size 8.13747pt on input line 35.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.35065pt on input line 34.
+(Font)              scaled to size 6.1031pt on input line 35.
 LaTeX Font Info:    Trying to load font information for U+npxmia on input line 
-34.
+35.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsym on input line 
-34.
+35.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 
-34.
+35.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 35.
+(Font)              scaled to size 14.4pt on input line 36.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 35.
+(Font)              scaled to size 13.31586pt on input line 36.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 35.
-LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 35.
-LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <14.4> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 35.
+(Font)              scaled to size 13.31586pt on input line 36.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 35.
-LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <14.4> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 35.
+(Font)              scaled to size 13.31586pt on input line 36.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 35.
+(Font)              scaled to size 13.31586pt on input line 36.
 (load cache: extra_haranoajigothic-medium.luc)
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 36
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 13.53603pt on input line 36.
 LaTeX Font Info:    Trying to load font information for T1+zplsups on input lin
-e 39.
+e 40.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/t1zplsups.fd
 File: t1zplsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
-(Font)              scaled to size 10.0pt on input line 39.
+(Font)              scaled to size 10.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 39.
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 39.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 39.
+(Font)              scaled to size 8.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
-(Font)              scaled to size 8.0pt on input line 39.
-LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 42.
-LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <12> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 42.
+(Font)              scaled to size 8.0pt on input line 40.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 42.
-LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <12> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 42.
+(Font)              scaled to size 11.09656pt on input line 43.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 42.
+(Font)              scaled to size 11.09656pt on input line 43.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 11.28003pt on input line 43.
 LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
-46.
+47.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 46.
+(Font)              scaled to size 10.0pt on input line 47.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 47.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 47.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 7.0242pt on input line 46.
+(Font)              scaled to size 6.7504pt on input line 47.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.2922pt on input line 46.
+(Font)              scaled to size 5.08592pt on input line 47.
+ [1
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for TS1+zpltlf on input lin
-e 75.
+e 76.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
 File: ts1zpltlf.fd 2015/01/18 v1.0 fd file for TS1/zpltlf
 )
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 75.
- [1
-
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(Font)              scaled to size 10.0pt on input line 76.
 <figs/vscode1.png, id=12, 1154.51324pt x 616.10175pt>
 File: figs/vscode1.png Graphic file (type png)
 <use figs/vscode1.png>
-Package luatex.def Info: figs/vscode1.png  used on input line 95.
-(luatex.def)             Requested size: 450.43253pt x 240.37273pt.
+Package luatex.def Info: figs/vscode1.png  used on input line 96.
+(luatex.def)             Requested size: 435.32422pt x 232.30672pt.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 97.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 97.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 97.
 <figs/vscode2.png, id=13, 1265.9295pt x 464.33475pt>
 File: figs/vscode2.png Graphic file (type png)
 <use figs/vscode2.png>
-Package luatex.def Info: figs/vscode2.png  used on input line 102.
-(luatex.def)             Requested size: 450.43253pt x 165.21194pt.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'. [
-2<./figs/vscode1.png>]
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 117.
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 117.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 117.
-LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 9.0pt on input line 117.
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 117.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 117.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Package luatex.def Info: figs/vscode2.png  used on input line 103.
+(luatex.def)             Requested size: 435.32422pt x 159.67136pt.
+ [2<./figs/vscode1.png>]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 7.0pt on input line 118.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 6.47299pt on input line 118.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.47299pt on input line 118.
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 118.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 118.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 118.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'. [3<./figs/vscode2.
 png>]
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
 warning  (file figs/memory_explain1.pdf) (pdf inclusion): PDF inclusion: found P
 DF version '1.6', but at most version '1.5' allowed
 <figs/memory_explain1.pdf, id=21, 645.90007pt x 295.0242pt>
 File: figs/memory_explain1.pdf Graphic file (type pdf)
 <use figs/memory_explain1.pdf>
-Package luatex.def Info: figs/memory_explain1.pdf  used on input line 170.
-(luatex.def)             Requested size: 400.38872pt x 182.88611pt.
+Package luatex.def Info: figs/memory_explain1.pdf  used on input line 171.
+(luatex.def)             Requested size: 386.95897pt x 176.75479pt.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
@@ -988,13 +1019,9 @@ on '1.6', but at most version '1.5' allowed
 <figs/memory2.pdf, id=22, 645.90007pt x 297.90297pt>
 File: figs/memory2.pdf Graphic file (type pdf)
 <use figs/memory2.pdf>
-Package luatex.def Info: figs/memory2.pdf  used on input line 193.
-(luatex.def)             Requested size: 400.38872pt x 184.67064pt.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'. [4<./figs/memory_e
-xplain1.pdf>]
+Package luatex.def Info: figs/memory2.pdf  used on input line 194.
+(luatex.def)             Requested size: 386.95897pt x 178.47949pt.
+[4<./figs/memory_explain1.pdf>]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
@@ -1005,41 +1032,58 @@ Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'. [
-5<./figs/memory2.pdf>]
-Removing  `ltj.listings_unicode' from `process_input_buffer'. [6] (./main.aux))
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [5<./figs/memory2.
+pdf>]
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [6]
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' at position 1 in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' at position 2 in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [7] (./main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 9063 strings out of 478531
- 382244,460012 words of node,token memory allocated
- 29673 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 31 glue, 461 kern, 1 glyph, 11305 attribute, 574 g
-lue_spec, 583 attribute_list, 1 write, 69 user_defined nodes
-   avail lists: 1:37,2:86846,3:634,4:3799,5:2393,6:77,7:8159,8:38,9:6920,10:26,1
-1:233
- 28330 multiletter control sequences out of 65536+600000
- 194 fonts using 62735799 bytes
- 112i,7n,111p,1788b,775s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 9359 strings out of 478531
+ 477809,460012 words of node,token memory allocated
+ 31794 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 44 glue, 469 kern, 1 glyph, 11739 attribute, 788 g
+lue_spec, 605 attribute_list, 1 write, 71 user_defined nodes
+   avail lists: 1:38,2:96382,3:572,4:4382,5:2543,6:101,7:8817,8:38,9:8218,10:28,
+11:243
+ 28599 multiletter control sequences out of 65536+600000
+ 198 fonts using 70517359 bytes
+ 127i,8n,124p,1763b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/tex
 live/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2021
 /texmf-dist/fonts/enc/dvips/newpx/npxsups_t1.enc}{/usr/local/texlive/2021/texmf-
 dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2021/texmf-dist/fo
-nts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf></usr/local/texlive/202
-1/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/t
-exmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/newpx/npxsups-Regular.pfb></usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
-1/public/newpx/pxsys.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
-tex-gyre/qplr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts
-/t1xtt.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pf
-b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on main.pdf (6 pages, 553357 bytes).
+nts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf>{/usr/local/texlive/202
+1/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/2021/texmf-di
+st/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/newpx/npxsups-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/newpx/pxmiaX.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/n
+ewpx/pxsys.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/q
+hvr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
+Output written on main.pdf (7 pages, 573709 bytes).
 
-PDF statistics: 128 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+PDF statistics: 132 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

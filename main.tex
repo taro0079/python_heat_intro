@@ -1,9 +1,10 @@
-\documentclass[]{article}
+\documentclass[]{ltjsarticle}
 \usepackage{luatexja}
 \usepackage[top=20mm, left=20mm, right=20mm, bottom=25mm]{geometry}
 \usepackage{url}
 \usepackage{newpxmath,newpxtext}
 \usepackage{color}
+\usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{listings} %日本語のコメントアウトをする場合jvlisting（もしくはjlisting）が必要
 %ここからソースコードの表示に関する設定
@@ -172,7 +173,7 @@
 		\label{fig:memory1}
 	\end{figure}
 
-	\section{配列}
+	\subsection{配列}
 	どのプログラミング言語にも「配列」といったデータを一括に扱う方法が存在する。
 	前述した変数ではa = 1のように1つの変数につき1つのデータしか格納することができない。
 	この場合、例えば時刻のようなデータを格納する場合は不便であるが、配列を使うことによって多数のデータを1つの変数として使うことができる。
@@ -215,6 +216,81 @@
 
 	x = np.array([1, 2, 3])
 	\end{lstlisting}
+
+	\subsection{多次元配列}
+	上述した配列はいわゆる1次元の配列である。
+	特に数値計算では2次元以上の多次元配列を使う場合が多い。
+	2次元配列の定義の仕方を以下に示す。
+	\begin{lstlisting}[caption=2darray.py, label=2darray]
+	import numpy as np
+
+	x = np.array([[1, 2, 3], [4, 5, 6]])
+	print(x)
+
+	x1 = x[0, 0]
+	print(x1)
+	\end{lstlisting}
+	行列$\begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}$が出力された。
+	2次元配列の要素を取り出すにはx[i, j]とインデックスを2つ指定する。
+	i、jはそれぞれ行、列に対応する。
+
+	\subsection{制御構文}
+	プログラミングをするメリットはなんだろうか？
+	それは「退屈な繰り返し処理をパソコンに任せる」であると思う。
+	ここではその繰り返し処理の基本について記す。
+
+	Helloと10回出力する処理の実装を考えてみよう。
+	ここまでの知識では以下のようなコードが考えられよう。
+	\begin{lstlisting}[caption=hellloop.py, label=helloloop]
+	print("hello")
+	print("hello")
+	print("hello")
+	print("hello")
+	print("hello")
+	print("hello")
+	print("hello")
+	print("hello")
+	print("hello")
+	print("hello")
+	\end{lstlisting}
+	非常に退屈なコードである。
+	なぜならば、あなたは「print("hello")」を数え間違えないように細心の注意を払って10回書かなければならないからである。
+	これでは処理をコンピュータに任せる意味がない。
+	コンピュータにこのような「退屈な繰り返し処理」を任せる方法を記す。
+	\subsection{while構文}
+	whileは「$\sim$する限り」という意味がある。
+	プログラミングでもその意味の通りの処理であり、「ある条件が成り立つ場合は処理を繰り返す」ことを示す。
+	while構文を使ってhelloを10回出力してみよう。
+	\begin{lstlisting}[caption=whileloop.py, label=hellowhile]
+	count = 0
+
+	while count < 11:
+		print("hello")
+		count += 1
+	\end{lstlisting}
+	これこそプログラミングの醍醐味である。
+	あなたは10も同じコードを書かずに済んだ！
+	while構文について説明する。
+	whileのあとにcount < 11とあるが、これは「ループを繰り返す条件式」を示す。
+	つまりcount変数が11未満である限り処理を繰り返すという意味である。
+	その後のコロン（:）は区切り文字のようなものであり、お作法的に覚えておいて問題ない。
+	whileで繰り返し処理する内容はインデント（コードがへこんでいるところ4，5行目）で表す。
+	インデントを忘れると繰り返し処理されないので注意する。
+
+	繰り返し処理の内容について説明する。
+	まずprint("hello")を行う。
+	その後、count += 1を行い、count変数に1を足す。
+	そして3行目に戻り、count変数の評価を行う。
+	1回ループした後ではcountは1であるためwhileループの条件count < 11を満たしているため再びループ内容を処理
+	これを繰り返してcountが11になるとwhileループ条件を満たさなくなり、処理が終了する。
+
+	
+
+
+
+	
+
+
 
 
 	\section{Numpyによる科学技術計算の初歩}

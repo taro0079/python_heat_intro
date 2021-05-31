@@ -1,0 +1,37 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{tikz}
+\usepackage{newpxmath, newpxtext}
+\usefonttheme[]{serif}
+
+\title{Numerical Calculation of 1-d Dimensional Heat Equation}
+\author{Taro Morita}
+
+\begin{document}
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}
+    \frametitle{Heat Equation}
+    \framesubtitle{Explicit method}
+    \begin{equation}
+        \frac{\partial \theta}{\partial t} = \kappa \frac{\partial^2 \theta}{\partial x^2}
+    \end{equation}
+    Recurrence formula is ...
+    \begin{equation}
+        \frac{\theta_{i, j+1} - \theta_{i, j}}{\Delta t} = \kappa \frac{\theta_{i-1, j} - 2 \theta_{i, j} + \theta_{i+1, j}}{(\Delta x)^2}
+        \label{eq:2}
+    \end{equation}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Heat equation}
+    \framesubtitle{Explicit method}
+    Transforming equation \ref{eq:2}, we get
+    \begin{equation}
+        \theta_{i, J+i} = r \theta_{i-1, j} + (1 - 2 r) \theta_{i, j} + r \theta_{i-1, j}
+    \end{equation}
+    Where $r = \kappa \displaystyle{\frac{\Delta t}{(\Delta x)^2}}$
+\end{frame}
+\end{document}
+

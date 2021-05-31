@@ -1,4 +1,4 @@
-\documentclass[]{ltjsarticle}
+\documentclass[]{ltjsbook}
 \usepackage{luatexja}
 \usepackage[top=20mm, left=20mm, right=20mm, bottom=25mm]{geometry}
 \usepackage{url}
@@ -33,14 +33,19 @@
 
 \begin{document}
 	\maketitle
-	\section{はじめに}
+	
+	\tableofcontents
+	
+	\chapter{はじめに}
 	熱伝導方程式に代表される偏微分方程式はコンピュータにおける数値計算によって計算されることが一般的である。
-	ここでは比較的学習コストが低いと言われているPythonを用いて熱伝導方程式を解くことを目的とする。
-	また従来はAnacondaを使うのがベストプラクティスとされていたが、Pythonをweb開発などの他の業務で使う際はそうではない場合が多いため本稿ではAnacondaを使わない
-	\footnote{数値計算しかしない場合はベスト。AnacondaのnumpyはIntelCPUに最適化されている。}。
-
-	\section{開発環境の構築}
-	\subsection{Pythonのインストール}
+	熱伝導方程式を数値計算するためには熱伝導方程式の知識はもちろん、プログラミングについてもある程度の知識が必要である。
+	熱伝導方程式をはじめとした偏微分方程式の数値的解法を扱った書籍は数多くあるが、いずれもある程度のプログラミング技能を前提として書かれているか、Fortranなど現在ではメジャーではない言語で書かれていることがほとんどである。
+	以上のような背景から本稿では比較的学習コストが低いと言われているPythonを用いて熱伝導方程式を解くことを目的とする。
+	また従来はAnacondaを使うのがベストプラクティスとされていたが、Pythonをweb開発などの他の業務で使う際はそうではない場合が多いため本稿ではAnacondaを使わない\footnote{数値計算しかしない場合はベスト。AnacondaのnumpyはIntelCPUに最適化されている。}。
+	
+	\chapter{開発環境の構築}
+	\section{Pythonのインストール}
+	\subsection{本体のインストール}
 	プログラミング言語Pythonのインストール方法を示す。
 	既にAnacondaをインストールしている場合は次セクション「はじめのコード」まで呼び飛ばした方が良いかもしれない\footnote{Anacondaと純Pythonの共存はなにかと面倒が多い気がする（やったことないのでわからない）}
 	\begin{enumerate}
@@ -60,7 +65,8 @@
 	\end{enumerate}
 
 
-	\subsection{Vusial studio codeのインストール}
+	\section{Vusial studio codeのインストール}
+	\subsection{本体のインストール}
 	Python自体のインストールはここまでで完了しているが、プログラムの内容（スクリプト）を編集するアプリケーションを用意するのが良い。
 	数あるエディタから今回は比較的導入しやすいVisual Studio Codeを紹介する。
 
@@ -149,8 +155,8 @@
 
 	このように数値計算ライブラリのNumpyを使うことで楽にSinカーブをプロットすることができた。
 
-	\section{Pythonで数値計算の基礎知識}
-	\subsection{変数}
+	\chapter{Pythonで数値計算の基礎知識}
+	\section{変数}
 	プログラミングでは「変数に値を代入する」という作業が多い。
 	コードで書くと以下の通りである。
 	\begin{lstlisting}{caption=variable, label=val}
@@ -173,7 +179,7 @@
 		\label{fig:memory1}
 	\end{figure}
 
-	\subsection{配列}
+	\section{配列}
 	どのプログラミング言語にも「配列」といったデータを一括に扱う方法が存在する。
 	前述した変数ではa = 1のように1つの変数につき1つのデータしか格納することができない。
 	この場合、例えば時刻のようなデータを格納する場合は不便であるが、配列を使うことによって多数のデータを1つの変数として使うことができる。
@@ -217,7 +223,7 @@
 	x = np.array([1, 2, 3])
 	\end{lstlisting}
 
-	\subsection{多次元配列}
+	\section{多次元配列}
 	上述した配列はいわゆる1次元の配列である。
 	特に数値計算では2次元以上の多次元配列を使う場合が多い。
 	2次元配列の定義の仕方を以下に示す。
@@ -234,7 +240,7 @@
 	2次元配列の要素を取り出すにはx[i, j]とインデックスを2つ指定する。
 	i、jはそれぞれ行、列に対応する。
 
-	\subsection{制御構文}
+	\section{制御構文}
 	プログラミングをするメリットはなんだろうか？
 	それは「退屈な繰り返し処理をパソコンに任せる」であると思う。
 	ここではその繰り返し処理の基本について記す。
@@ -293,7 +299,8 @@
 
 
 
-	\section{Numpyによる科学技術計算の初歩}
+	\chapter{Numpyによる科学技術計算の初歩}
+	\section{はじめに}
 	熱伝導方程式の数値計算を始める前に、まず数値計算ライブラリのNumpyの基本的な使い方について記す。
 	NumpyはPython上で科学技術計算を容易に行うことを実現したライブラリである。
 	行列計算や統計計算などが簡単なコマンドによって実行することができる。
@@ -329,8 +336,75 @@
 	しかし、平均値の算出方法を知らないのにaverage()を使うのは良くないことがなんとなく想像できると思う。
 	原理を理解した上で使うように心がけよう。
 
-	\subsection{行列計算}
-
+	\section{行列計算}
+	
+	
+	\chapter{熱伝導方程式の基礎}
+	熱伝導方程式に代表される偏微分方程式の数値計算の解法は主に陽解法、陰解法、クランク・ニコルソン法の3つがある。
+	計算の難易度は陽解法 < 陰解法 < クランク・ニコルソン法の順番で難しい。
+	難易度順に説明していく。
+	\section{陽解法}
+	1次元の熱伝導方程式は以下のように表される。
+	\begin{equation}
+		\frac{\partial \theta}{\partial t} = \kappa \frac{\partial^2 \theta}{\partial x ^2}
+	\end{equation}
+	ここで、$\theta$、$t$、$x$、$\kappa$はそれぞれ温度、時刻 (s)、距離 (mm)、熱拡散率（mm\textsuperscript{2}/s）を示す。
+	微分の原理で書き下すと以下のようになる。
+	\begin{equation}
+		\displaystyle{\lim_{\Delta t \to 0} \frac{\theta_{i, j+1} - \theta_{i , j}}{\Delta t}} = \kappa \displaystyle{\lim_{\Delta t \to 0}\frac{\theta_{i-1, j} - 2 \theta_{i, j} + \theta_{i+1, j}}{(\Delta x)^2}}
+		\label{equ:heat}
+	\end{equation}
+	ここで添え字の$i$、$j$はそれぞれx軸方向、時間方向を示している。
+	式（\ref{equ:heat}）は次のように近似できる。
+	\begin{eqnarray}
+		\frac{\theta_{i, j+1} - \theta_{i , j}}{\Delta t} &=& \kappa \frac{\theta_{i-1, j} - 2 \theta_{i, j} + \theta_{i+1, j}}{(\Delta x)^2} \\
+		\theta_{i, j+1} &=& \left(\kappa \frac{\Delta t}{(\Delta x)^2}\right) (\theta_{i-1, j} -2\theta_{i, j} + \theta_{i+1, j}) + \theta_{i, j}
+		\label{equ:heat2}
+	\end{eqnarray}
+	
+	ここで$\displaystyle{\kappa \frac{\Delta t}{(\Delta x)^2} = r}$とすると、式（\ref{equ:heat2}）は
+	\begin{equation}
+		\theta_{i, j+1} = r\theta_{i-1, j} + (1-r)\theta_{i, j} + r\theta_{i+1, j}
+		\label{equ:heat3}
+	\end{equation}
+	と変形できる。
+	この式の意味はなんだろうか。
+	
+	図のようにx軸方向に$n$個の点で$n-1$分割した1次元の棒を考えてみる。
+	時刻$t = k$におけるx軸上の格子点の温度は左から順番に
+	\begin{equation}
+		\theta_{0,k}, \theta_{1, k}, \theta_{2, k} \cdots \theta_{n-1, k}
+	\end{equation}
+	となる。
+	さらに時刻を$t = k+1$とすると、棒状の格子点の温度は左から順に
+	\begin{equation}
+		\theta_{0,k+1}, \theta_{1, k+1}, \theta_{2, k+1} \cdots \theta_{n-1, k+1}
+	\end{equation}
+	となる。
+	例えば棒を10つの格子点で分割した場合を考える。
+	$i = 1 \sim 8$となる（詳しくは後述する）。
+	$t = 0$とすると式（\ref{equ:heat3}）は
+	\begin{equation}
+		\begin{gathered}
+		\theta_{1, 1} = r\theta_{0, 0} + (1-r)\theta_{1, 0} + r\theta_{2, 0}\\
+		\theta_{2, 1} = r\theta_{1, 0} + (1-r)\theta_{2, 0} + r\theta_{3, 0}\\
+		\theta_{3, 1} = r\theta_{2, 0} + (1-r)\theta_{3, 0} + r\theta_{4, 0}\\
+		\vdots \\
+		\theta_{8, 1} = \theta_{7, 0} + (1-r)\theta_{8, 0} + r\theta_{9, 0}
+		\end{gathered}
+		\label{equ:heat4}
+	\end{equation}
+	この式で$\theta_{0, 1}$と$\theta_{9, 1}$は棒の両端部である。
+	数値解析ではこれらの端部の格子点の温度をあらかじめ設定しなければ計算を行うことができない。
+	この端部における温度設定を\textbf{境界条件}といい、偏微分方程式の数値計算では不可欠な条件である。
+	また式（\ref{equ:heat4}）中の
+	
+	例えば、ある棒状の物体を１次元に10点の格子点で
+	
+	
+	
+	
+	
 
 	
 

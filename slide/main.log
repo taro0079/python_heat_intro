@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.26)  31 MAY 2021 17:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.26)  31 MAY 2021 17:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1079,7 +1079,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  131i,14n,132p,461b,1130s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXBMI_gnu.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxbsys.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on /home/taro/Document/heatIntro/slide/main.pdf (8 pages, 156077 bytes).
+Output written on /home/taro/Document/heatIntro/slide/main.pdf (8 pages, 156072 bytes).
 PDF statistics:
  281 PDF objects out of 1000 (max. 8388607)
  249 compressed objects within 3 object streams
